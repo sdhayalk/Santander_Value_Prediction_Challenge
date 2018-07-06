@@ -15,12 +15,8 @@ def remove_constant_cols(df):
     return df
 
 
+def main():
+    pass
 
-train_df = pd.read_csv("../data/train.csv")
-# test_df = pd.read_csv("../data/test.csv")
-
-print("Train rows and columns : ", train_df.shape)
-# print("Test rows and columns : ", test_df.shape)
-
-remove_constant_cols(train_df)
-# remove_constant_cols(test_df)
+if __name__ == '__main__':
+    main()
